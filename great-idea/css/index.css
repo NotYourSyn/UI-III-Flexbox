@@ -158,6 +158,12 @@ address {
 	padding-left: 10%;
 }
 
+.ServicePgh {
+	display: flex;
+	flex-direction: column;
+	padding: 2% 5% 2%;
+}
+
 
 hr {
 	width: 89%;
@@ -189,7 +195,9 @@ hr {
 	width: 40%;
 }
 .ServiceFacts img {
-	padding-left: 10%;
+	padding-left: 140%;
+	
+	
 }
 ul {
 	list-style-type: square;
