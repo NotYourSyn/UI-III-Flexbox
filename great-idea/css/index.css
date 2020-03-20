@@ -64,3 +64,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 98%;
+	margin: 0 auto;
+}
+
+
+header {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+	
+}
+
+nav a {
+	margin: 40px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+.section1 {	
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.section1 img {
+	width: 95%;
+	height: 95%;
+}
+
+ h1{
+	font-size: 150px;
+	margin-top: 10%;
+	
+}
+
+.section2 {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin: 30px 0px 30px 0px;
+	
+}
+
+.section4 {
+	display:flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin: 30px 0px 30px 0px;
+}
+
+.section3 {
+	text-align: center;		
+}
+
+.section3 img {
+	width: 95%
+}
+
+.ContactSection {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 95%;
+	margin-left: 5%;
+}
+
+address {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.CompanyServices {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	
+}
+.CompanyServices img {
+	width: 90%;
+	padding-left: 10%;
+}
+
+.ServicePgh {
+	display: flex;
+	flex-direction: column;
+	padding: 2% 5% 2%;
+}
+
+
+hr {
+	width: 89%;
+	border-top: 2px solid black;
+}
+.CompanyServices2 {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.CompanyServices2 div {
+	border: 2px solid;
+	margin: 2%;
+	padding: 10px;
+	text-align: left;
+	width: 39%;
+}
+.CompanyServices2 p {
+	margin-bottom: 5%;
+}
+.ServiceFacts {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	margin: 2% 5% 1% 5%;
+	width: 40%;
+}
+.ServiceFacts img {
+	padding-left: 140%;
+	
+	
+}
+ul {
+	list-style-type: square;
+	padding: 20px  15px 20px 15px;
+}
